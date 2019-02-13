@@ -74,6 +74,9 @@ function cariModus(arr) {
           }
         }
       }
+      else if(jumlahModus3 !==0 && jumlahModus2 === 0 && angkaModus3 === arr[i]){
+        jumlahModus3++
+      }
       else if(jumlahModus1 !==0 && jumlahModus3 !== 0){
         angkaModus2 = arr[i]
         jumlahModus2++
