@@ -1,3 +1,4 @@
+/*
 ================
 Advanced Seating
 ================
@@ -50,3 +51,4 @@ Output :
     [ { nama: 'Naruto', seat: 'R1' },
       { nama: 'Sakura', seat: 'R3' } ]
 }
+*/
