@@ -19,7 +19,7 @@ function naikAngkot(arrPenumpang) {
         var tujuan = j
       }
     }
-    objTemp.bayar = (tujuan - naik) * 2000
+    objTemp.bayar = Math.abs((tujuan - naik) * 2000)
     result.push(objTemp)
     
   }
